@@ -9,14 +9,27 @@ import Foundation
 import SwiftUI
 import CoreNFC
 
+
+
+struct Model {
+    let id, name: String
+    let details: [Detail]
+}
+struct Detail {
+    let name, serial, model: String
+    let assetID : Int
+    let contactPhone : String
+    let contactEmail : String
+}
+
+
 struct nfcButton : UIViewRepresentable {
     
     @Binding var data : String
     
     func makeUIView(context: UIViewRepresentableContext<nfcButton>) -> UIButton {
         let button = UIButton()
-        button.setTitle("Read NFC", for: .normal )
-        button.backgroundColor = UIColor.blue
+     //   button.setTitle("Read NFC", for: .normal )
         button.addTarget(context.coordinator, action: #selector(context.coordinator.beginScan(_:)), for: .touchUpInside)
         return button
     }
