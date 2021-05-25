@@ -12,6 +12,9 @@
 		A24E751D265D91510048D7D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A24E751C265D91510048D7D3 /* Assets.xcassets */; };
 		A24E7520265D91510048D7D3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A24E751F265D91510048D7D3 /* Preview Assets.xcassets */; };
 		A24E7547265D9E9F0048D7D3 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24E7546265D9E9F0048D7D3 /* Helper.swift */; };
+		A24E754C265DA4840048D7D3 /* LandingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24E754B265DA4840048D7D3 /* LandingPage.swift */; };
+		A24E758A265DA66E0048D7D3 /* BigCityGrotesquePro-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A24E7575265DA6500048D7D3 /* BigCityGrotesquePro-Regular.ttf */; };
+		A24E758C265DA66E0048D7D3 /* BigCityGrotesquePro-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A24E7573265DA6500048D7D3 /* BigCityGrotesquePro-Bold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +45,9 @@
 		A24E7531265D91510048D7D3 /* AssetID POCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AssetID POCUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A24E7546265D9E9F0048D7D3 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
 		A24E7548265DA0B20048D7D3 /* AssetID POC.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "AssetID POC.entitlements"; sourceTree = "<group>"; };
+		A24E754B265DA4840048D7D3 /* LandingPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingPage.swift; sourceTree = "<group>"; };
+		A24E7573265DA6500048D7D3 /* BigCityGrotesquePro-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BigCityGrotesquePro-Bold.ttf"; sourceTree = "<group>"; };
+		A24E7575265DA6500048D7D3 /* BigCityGrotesquePro-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BigCityGrotesquePro-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +127,7 @@
 			isa = PBXGroup;
 			children = (
 				A24E751A265D914E0048D7D3 /* ContentView.swift */,
+				A24E754B265DA4840048D7D3 /* LandingPage.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -129,8 +136,18 @@
 			isa = PBXGroup;
 			children = (
 				A24E7518265D914E0048D7D3 /* AssetID_POCApp.swift */,
+				A24E7571265DA64F0048D7D3 /* Font */,
 			);
 			path = App;
+			sourceTree = "<group>";
+		};
+		A24E7571265DA64F0048D7D3 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				A24E7573265DA6500048D7D3 /* BigCityGrotesquePro-Bold.ttf */,
+				A24E7575265DA6500048D7D3 /* BigCityGrotesquePro-Regular.ttf */,
+			);
+			path = Font;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,7 +254,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				A24E7520265D91510048D7D3 /* Preview Assets.xcassets in Resources */,
+				A24E758C265DA66E0048D7D3 /* BigCityGrotesquePro-Bold.ttf in Resources */,
 				A24E751D265D91510048D7D3 /* Assets.xcassets in Resources */,
+				A24E758A265DA66E0048D7D3 /* BigCityGrotesquePro-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +283,7 @@
 			files = (
 				A24E751B265D914E0048D7D3 /* ContentView.swift in Sources */,
 				A24E7519265D914E0048D7D3 /* AssetID_POCApp.swift in Sources */,
+				A24E754C265DA4840048D7D3 /* LandingPage.swift in Sources */,
 				A24E7547265D9E9F0048D7D3 /* Helper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -12,7 +12,7 @@ import SwiftUI
 struct AssetID_POCApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            LandingPage()
         }
     }
 }
